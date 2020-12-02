@@ -35,16 +35,25 @@ hello2();
 ## short circuit evaluation
 
 AND, OR같은 논리 연산에서 결과가 예측된다면 뒤에 나머지 연산을 실행하지 않고 결론을 낸다.
+
 AND의 경우
+
 true && true => true
+
 true && false => false
+
 false && true => false
+
 false && false => false
 
 OR의 경우
+
 true || true => true
+
 true || false => true
+
 false || true => true
+
 false || false => false
 
 ```javascript
@@ -172,6 +181,7 @@ JS 엔진에 의해 만들어지는 EC는 2 가지 Phase가 있습니다.
 - 범위 바깥족 참조 (scope chain 개념으로 연결)
 
 **_Execution Phase_**
-실제 코드들을 실행(변수 할당, 함수 호출)
+
+- 실제 코드들을 실행(변수 할당, 함수 호출)
 
 ref: https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0
